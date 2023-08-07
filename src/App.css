@@ -5,10 +5,10 @@
 
 .app{
   display: flex;
-  width: 370px;
-  height: 640px;
+  width: 365px;
+  height: 695px;
   flex-direction: column;
-  
+  padding: 2%
 }
 
 h1,h2{
