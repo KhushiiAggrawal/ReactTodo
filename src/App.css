@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
+  width: 350px;
+  height: 95%;
+  flex-direction: column;
+  
+}
+
+h1,h2{
+  display: flex;
+  color: white;
+  width: 96%;
+  height: 10%;
+  align-items: center ;
+  justify-content: center  ;
+  background-color: rgb(21, 134, 232);
+}
+h1{
+  border: 1px solid pink;
+}
+h2{
+  height: 30%;
+}
+.middle{
+  display: flex;
+  height: 70%;
+  width: 92%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2%;
+  background-color: lightblue;
+  border: 1px solid pink;
+}
+.footer{
+  display: flex;
+  width: 90%;
+  height: 20%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3%;
+  border: 1px solid white;
+  background-color: rgb(21, 134, 232);
+  
+}
+.addtodo{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#search{
+  width: 96%;
+  height: 10%;
+  background-color: white;
+  border-radius: 0.1rem;
+  margin: 1%;
+  padding: 1%;
+  font-size: 1.35rem;
+}
+.displaybox{
+  display: flex;
+  height: 90%;
+  width: 98%;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  overflow-y: scroll;
+}
+.displayItem{
+  display: flex;
+  width: 95%;
+  height:2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.addinputs{
+  display: flex;
+  flex-direction: column;
+  justify-items: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.deletebtn,.addbtn{
+  font-size: 1.35rem;
+  padding: 0.2rem 0.6rem;
+  background-color:rgb(21, 134, 232);
+  font-weight:700;
+  border: none;
+  display: table-cell;
+  align-items: center;
+  border-radius: 0.5rem;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addbtn{
+  background-color: white;
+}
+.input,p{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.empty{
+height: 2rem;
+font-size: 1.2rem;
+color: rgb(80, 78, 78);
+margin: 0.35rem;
 }
