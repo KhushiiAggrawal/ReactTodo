@@ -1,6 +1,6 @@
 body {
    margin: 0;
-  padding: 0;
+   padding:1%;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   background-color: rgb(21, 134, 232);
 }
 
 code {
