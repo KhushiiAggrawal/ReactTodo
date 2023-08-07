@@ -103,6 +103,26 @@ h2{
 }
 .addbtn{
   background-color: white;
+<<<<<<< HEAD
+=======
+}
+.input,p{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.empty{
+height: 2rem;
+font-size: 1.2rem;
+color: rgb(80, 78, 78);
+margin: 0.35rem;
+>>>>>>> 60050a7a87290930878007efae28c88fefeb8965
 }
 .input,p{
   display: flex;
