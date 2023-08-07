@@ -11,9 +11,6 @@ const Displaytodo = ({ title, desc, id ,deleteItem}) => {
     </div>
   );
 };
-<<<<<<< HEAD
-=======
-
 const App = () => {
 
   const [title, setTitle] = useState("");
@@ -69,7 +66,11 @@ const App = () => {
   const LoadDataFromLocalStorage = (key) => {
     try {
       const userdata = JSON.parse(localStorage.getItem(key));
-      return userdata;
+      if(userdata){
+        return userdata;
+      }else{
+        return [];
+      }
     } catch (error) {
       console.error('Error in loading data', error);
     }
