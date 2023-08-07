@@ -5,11 +5,9 @@
 
 .app{
   display: flex;
-  width: 400px;
-  height: 700px;
+  width: 395px;
+  height: 690px;
   flex-direction: column;
-  padding: 1%;
-  overflow:hidden;
 }
 
 h1,h2{
