@@ -5,8 +5,8 @@
 
 .app{
   display: flex;
-  width: 350px;
-  height: 540px;
+  width: 370px;
+  height: 640px;
   flex-direction: column;
   
 }
